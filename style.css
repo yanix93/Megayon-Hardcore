@@ -1,0 +1,768 @@
+* {
+	margin:0;
+	padding: 0;
+}
+
+body {
+	font-family: sans-serif;
+}
+
+#nav-bar {
+	position: sticky;
+	top: 0;
+	z-index: 10;
+}
+
+.navbar {
+	background-image: linear-gradient(to right, #000000, #000000);
+	padding: 0 !important;
+}
+
+.navbar-brand img {
+	height: 100px;
+	padding-left: 50px;
+
+}
+
+
+
+
+.audio-player {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.audio-player button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.navbar-nav li {
+	padding: 0 10px;
+}
+
+.navbar-nav li a {
+	color: #fff !important;
+	font-weight: 600;
+	float: right;
+	text-align: left;
+}
+
+.fa-bars {
+	color: #fff;
+	font-size: 30px !important;
+}
+
+.navbar-toggler {
+	outline: none !important;
+}
+
+.wrap {
+ width: 100%;
+ height: 50vh;
+}
+.wrap img {
+ width: 100%;
+ height: 100%;
+ object-fit: cover;
+ object-position: center center;
+}
+
+#banner {
+	background-image: linear-gradient(to right, #000000, #000000);
+	color: #fff;
+	padding-top: 0%;
+
+
+}
+
+.promo-title {
+	font-size: 40px;
+	font-weight: 100;
+	margin-top: 20px;
+}
+
+.promo-title1 {
+	font-size: 20px;
+	font-weight: 600;
+	margin-top: 5px;
+}
+
+.play-btn {
+	width: 45px;
+	margin: 20px;
+}
+
+#banner a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.bottom-img {
+	width: 100% ;
+
+}
+
+/*-------------mandate-----------------*/
+#mandate {
+	padding: 50px 0;
+}
+
+
+
+.mandate {
+	padding: 50px;
+}
+
+.mandate h4 {
+	padding: 5px;
+	margin-top: 5px;
+	text-transform: uppercase;
+}
+
+
+#issues {
+	padding: 50px 0;
+}
+
+
+
+.issues  {
+	padding: 50px;
+}
+
+.issues  h4 {
+	padding: 5px;
+	margin-top: 5px;
+	text-transform: uppercase;
+}
+#issues {
+	background: #f1f2f3;
+	padding-bottom: 10px;
+	padding-top: 10px;
+
+}
+
+.issues img {
+	border-radius: 20px;
+}
+
+
+
+
+
+/*---------------About Us---------------------*/
+#about-us {
+	background: #f1f2f3;
+	padding-bottom: 50px;
+	padding-top: 50px;
+}
+
+.about-title {
+	font-size: 40px;
+	font-weight: 600;
+	margin-top: 8%;
+}
+
+#about-us ul p {
+	margin: 0px 0;
+}
+#about-us ul li {
+	margin: 5px 0;
+	margin-top: 5%;
+}
+
+#about-us ul {
+	margin-left: 0px;
+}
+
+
+
+
+
+
+/*------------Social Media Section------------*/
+#social-media {
+	background: white;
+	padding: 100px 0;
+}
+
+#social-media p {
+	font-size: 36px;
+	font-weight: 600;
+	margin-bottom: 30px;
+}
+
+.social-icons img {
+	width: 60px;
+	transition: 0.5s;
+}
+
+.social-icons a:hover img {
+	transform: translateY(-10px);
+}
+
+/*-----------footer section---------------------*/
+#footer {
+	background-image: linear-gradient(to right, #000000, #000000);
+	color: #fff;
+}
+
+.footer-img {
+	width: 100%;
+}
+
+.footer-box {
+	padding: 0px;
+}
+
+.footer-box img {
+	width: 120px;
+	margin-bottom: 20px;
+}
+
+.footer-box .fas {
+	margin-right: 8px;
+	font-size: 25px;
+	height: 40px;
+	width: 40px;
+	text-align: center;
+	padding-top: 7px;
+	border-radius: 2px;
+	background-image: linear-gradient(to right, #000000, #000000);
+}
+
+.footer-box .form-control {
+	box-shadow: none !important;
+	border: none;
+	border-radius: 0;
+	margin-top: 25px;
+	max-width: 250px;
+}
+
+.footer-box .btn-primary {
+	box-shadow: none !important;
+	border: none;
+	border-radius: 0;
+	margin-top: 30px;
+	color: #000000
+	background-image: linear-gradient(to right, #ffffff, #ffffff);
+	
+
+
+	
+}
+
+hr {
+	background-color: #fff;
+}
+
+
+
+
+
+/* Styling the area of the slides */
+#slideshow {
+    overflow: hidden;
+    height: 510px;
+    width: 1250px;
+    margin: 0 auto;
+}
+
+/* Style each of the sides 
+  with a fixed width and height */
+.slide {
+    float: left;
+    height: 510px;
+    width: 1250px;
+}
+
+/* Add animation to the slides */
+.slide-wrapper {
+
+    /* Calculate the total width on the
+    basis of number of slides */
+    width: calc(1250px * 3);
+
+    /* Specify the animation with the
+    duration and speed */
+    animation: slide 20s ease infinite;
+}
+
+/* Set the background color
+  of each of the slides */
+.slide:nth-child(1) {
+    background: white;
+}
+
+.slide:nth-child(2) {
+    background: white;
+}
+
+.slide:nth-child(3) {
+    background: white;
+}
+
+
+/* Define the animation 
+  for the slideshow */
+@keyframes slide {
+
+    /* Calculate the margin-left for 
+    each of the slides */
+    20% {
+        margin-left: 0px;
+    }
+
+    40% {
+        margin-left: calc(-1250px * 1);
+    }
+
+    60% {
+        margin-left: calc(-1250px * 2);
+    }
+
+  
+}
+
+
+.slideshow{
+	
+height: 100%;
+	width: 100%; object-fit: contain;
+}
+
+
+/* powered by yek-sass */
+$_background: #d3dcdd;
+$_background: linear-gradient(43deg, #4158d0 0%, #c850c0 46%, #ffcc70 100%);
+$_background: linear-gradient(0deg, #d9afd9 0%, #97d9e1 100%);
+$_cool-background: #eaf2ff;
+$_cool-white: #f9fcff;
+$_cool-sky: #add8e6;
+$_cool-blue: #5c9dc0;
+$_cool-green: #bdb369;
+$_cool-black: #002e63;
+$_cool-silver: #eeeeee;
+$_cool-gray: darken(#dbdcdb, 25);
+$_description: #8c9294;
+$_btn-hover: #e5eff9;
+$_icon-hover: $_cool-blue;
+:root {
+  --seek_listener_percentage: 0%;
+  --volume_listener_percentage: 50%;
+}
+
+body {
+  @include yek-aligns;
+  background: $_background;
+}
+
+/* +++ MAIN +++ */
+.music {
+  @include yek-flex;
+  @include yek-size(530px, 180px);
+  @include yek-aligns;
+  position: relative;
+  border: 4px desaturate($_cool-white, 45%) solid;
+  overflow: hidden;
+  background-color: $_cool-white;
+  box-shadow: 0 4px 7px rgba($_cool-black, 0.3);
+
+  & {
+    border-radius: 8px;
+  }
+  &__main {
+    @include yek-flex;
+    @include yek-size(unquote("#{(54.5 + 35)}%"), 100%);
+    position: relative;
+    padding: 0;
+    margin: 0;
+  }
+  &__image {
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+  }
+}
+
+/* +++ METADATA +++ */
+.music {
+  &__meta {
+    @include --ellipsis;
+    @include yek-flex;
+    @include yek-size(60.8%, 100%);
+    padding: 6px 24px;
+  }
+  &__name {
+    @include yek-flex;
+    // TOGGLE @include yek-aligns(flex-start);
+    @include yek-size(100%, calc(100% - 80px));
+  }
+  &__title,
+  &__description {
+    @include --ellipsis;
+    @include yek-width(100%);
+    padding: 6px 0;
+  }
+  &__title {
+    margin: 0;
+  }
+  &__description {
+    font-size: 0.8rem;
+    color: darken($_cool-gray, 25);
+  }
+
+  &__cover {
+    @include yek-size(39.2%, 100%);
+    @include yek-flex;
+    @include yek-aligns;
+  }
+  &__image {
+    @include --image-cover;
+  }
+}
+
+/* +++ UPLOAD +++ */
+.music {
+  &--upload::before,
+  &--upload::after {
+    display: block;
+    position: absolute;
+    background: $_cool-white;
+  }
+  &--upload::after {
+    @include yek-size;
+    content: "";
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 90;
+  }
+  &--upload::before {
+    $posy: calc(5% - 0px);
+    $posx: calc(2.5% - 0px);
+    @include yek-size(95%, 90%);
+    content: "DROP HERE...";
+    top: $posy;
+    bottom: $posy;
+    left: $posx;
+    right: $posx;
+    border: 5px dashed $_cool-blue;
+    border-radius: 9px;
+    line-height: 5;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 2rem;
+    font-weight: 800;
+    color: $_cool-black;
+    z-index: 95;
+  }
+
+  &__uploader {
+    @include yek-size;
+    display: none;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -100%;
+    bottom: 100%;
+    opacity: 0;
+    background: #fff;
+    // will-change: top, bottom, display;
+
+    &--show {
+      display: block;
+      top: 0;
+      bottom: 0;
+      z-index: 99;
+    }
+  }
+}
+
+/* +++ CONTROLLERS +++ */
+.music {
+  &__controller {
+    @include yek-size(10.5%, 100%);
+    @include yek-flex(column);
+  }
+
+  &__btn {
+    @include --clear-btn;
+    @include yek-size(100%, 33.33%);
+    cursor: pointer;
+    background-color: transparent;
+
+    & i {
+      padding: 12px;
+      border-radius: 5px;
+      will-change: text-shadow, box-shadow, transform, background-color, color,
+        padding-right, padding-left;
+    }
+    &--pause i {
+      // NOTE : exact center
+      padding-left: 14px;
+      padding-right: 12px;
+    }
+    // TOGGLE : `&:hover { background-color: $_btn-hover; }`
+    &:hover i {
+      transform: scale(1.2);
+      color: $_icon-hover;
+      background-color: $_cool-silver;
+    }
+    &:active i {
+      transform: scale(0.9);
+    }
+  }
+}
+
+// TODO : build, this option
+
+/* +++ MIXINS +++ */
+@mixin --clear-btn-2 {
+  transform: scale(0.85);
+  transition-property: transform;
+  cursor: pointer;
+  &:hover i {
+    transform: scale(1.2);
+    background-color: $_cool-silver;
+  }
+  &:active i {
+    transform: scale(0.9);
+  }
+}
+.music {
+  &__mixin,
+  &__volume {
+    @include yek-size(50%, 35px);
+    @include yek-flex;
+  }
+
+  &__mixin {
+    @include yek-aligns(space-between);
+    margin-left: -6px;
+  }
+
+  &__volume_btn,
+  &__shuffle,
+  &__repeat,
+  &__playlist_open {
+    @include --clear-btn;
+    @include --clear-btn-2;
+    @include yek-height(25px);
+    background-color: transparent;
+
+    & i {
+      // font-size: 0.8rem;
+      padding: 8px;
+      border-radius: 9px;
+      will-change: transform, background-color, color, padding-right,
+        padding-left;
+    }
+    &--on i {
+      color: $_icon-hover;
+    }
+  }
+
+  &__shuffle,
+  &__repeat,
+  &__playlist_open {
+    @include yek-width(33.33%);
+  }
+}
+
+/* +++ SEEK/TIMES +++ */
+.music {
+  &__times {
+    @include yek-flex;
+    @include yek-aligns(space-between);
+    @include yek-size(130%, 25px);
+    // TODO : if neccery `transform: translateY(-20px);`
+    color: $_cool-gray;
+  }
+  &__duration,
+  &__current_time {
+    @include yek-size(45%);
+    @include --ellipsis;
+  }
+  &__times,
+  &__duration,
+  &__current_time {
+    padding: 0;
+    margin: 0;
+    font-size: 0.8rem;
+  }
+  &__duration {
+    text-align: right;
+    padding-right: 5px;
+  }
+  &__current_time {
+    text-align: left;
+    padding-left: 2px;
+  }
+  &__seek {
+    @include yek-width(100%);
+    background-color: $_cool-sky;
+  }
+  &__seek_handle {
+    @include yek-width(var(--seek_listener_percentage));
+    display: block;
+    background-color: $_cool-blue;
+  }
+  &__seek,
+  &__seek_handle {
+    @include yek-height(3px);
+    border-radius: 9px;
+    transition-timing-function: ease-in-out;
+    cursor: pointer;
+    will-change: height;
+  }
+  &__seek:hover,
+  &__seek:hover &__seek_handle {
+    @include yek-height(5px);
+  }
+}
+
+/** +++ VOLUME +++ **/
+.music {
+  &__volume {
+    @include yek-aligns;
+  }
+
+  &__volume_btn {
+    @include yek-width(30%);
+    transform: translate(-7px, -25%);
+  }
+  &__volume_range {
+    @include yek-size(60%);
+    transform: translateY(-70%);
+    background-color: $_cool-sky;
+  }
+  &__volume_handle {
+    @include yek-width(var(--volume_listener_percentage));
+    display: block;
+    background-color: $_cool-blue;
+  }
+  &__volume_range,
+  &__volume_handle {
+    @include yek-height(3px);
+    border-radius: 9px;
+    transition-timing-function: ease-in-out;
+    cursor: pointer;
+  }
+}
+
+/* +++ PLAYLIST +++ */
+.music {
+  &__playlist {
+    transition: 0.3s;
+    @include absolute(100%, 0, 100%, 0);
+    z-index: 70;
+    display: none;
+
+    &--open,
+    &--on {
+      display: block;
+      @include yek-flex;
+      top: 0;
+      bottom: 0;
+      background: $_cool-silver;
+    }
+  }
+}
+.music__playlist,
+.playlist__track_list {
+  overflow: hidden;
+}
+.playlist__track_list {
+  @include --clear-list;
+  overflow-y: auto;
+}
+$--track-size: 150px;
+$--cover-size: 130px;
+.playlist {
+  &__close_btn {
+    @include --clear-btn;
+    @include --clear-btn-2;
+    @include absolute(5px);
+  }
+  &__track_list {
+    @include yek-size;
+    @include yek-flex;
+    @include yek-align(space-around, flex-start, flex-start);
+    scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
+    // to hide scrollbar
+    transform: translateX(20px);
+    &:focus {
+      @include --clear-btn;
+    }
+  }
+
+  &__track {
+    @include yek-flex;
+    @include yek-size(90%, $--track-size);
+    background-color: $_cool-white;
+    margin: 9px auto;
+    padding: 10px;
+    border-radius: 15px;
+    scroll-snap-align: center;
+    &:hover {
+      background-color: $_btn-hover;
+      cursor: pointer;
+    }
+    &--current {
+      background: bisque;
+    }
+  }
+
+  &__cover {
+    @include --image-cover;
+    @include yek-size($--cover-size, $--cover-size);
+    border-radius: 9px;
+  }
+
+  &__meta {
+    @include yek-flex(column);
+    @include yek-size(calc(100% - $--cover-size), 100%);
+    @include yek-align(space-between, flex-start, flex-start);
+    padding: 9px;
+  }
+
+  &__title,
+  &__artist {
+    @include --ellipsis;
+    @include yek-width;
+  }
+}
+
